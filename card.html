@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyGift</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/favicone.svg" type="image/svg+xml">
 </head>
-<body>
+<body class="body body--card">
     <header class="header header-card">
         <div class="header-card__container container">
           <img class="header__logo" src="img/logo.svg" alt="Логотип проекта"  width="180" height="48">
@@ -21,12 +22,14 @@
           <p class="main-card__descr">Нажмите на нее, чтобы узнать от кого она и прочитать поздравление</p>
 
             <div class="main-card__cards">
-              <img class="main-card main-card__front" src="img/card-02.jpg" alt="открытка" >
+              <div class="main-card main-card__front">
+                <img class="main-card__img" src="img/card-02.jpg" alt="открытка" >
+              </div>
                 <div class="main-card main-card__back card-back">
                   <h2 class="card-back__title">Поздравление</h2>
                     <div class="card-back__fields">
                       <div class="card-back__field">
-                        <div class="card-back__key">от кого</>
+                        <div class="card-back__key">от кого</div>
                         <div class="card-back__value">Иван Иванов</div>
                       </div>
                       <div class="card-back__field">
